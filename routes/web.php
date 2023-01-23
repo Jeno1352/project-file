@@ -36,5 +36,9 @@ Route::get('FAQ',function (){
 
     return view('FAQ');
 });
+Route::get('appointment',function (){
+
+    return view('appointment');
+});
 
 

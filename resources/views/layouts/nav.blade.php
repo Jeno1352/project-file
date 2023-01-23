@@ -20,9 +20,24 @@
                     </li>
 
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
+                    <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Services</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Workout</a></li>
+                <li><a class="dropdown-item" href="#">Diet</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">BMI Calculation</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="{{url('appointment')}}">Appoinment of Trainer</a>
+                </li>
+              </ul>
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('FAQ')}}">FAQ</a>
                     </li>
