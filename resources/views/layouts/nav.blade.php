@@ -29,7 +29,7 @@
                 >Services</a
               >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Workout</a></li>
+                <li><a class="dropdown-item" href="{{url('plans')}}">Workout</a></li>
                 <li><a class="dropdown-item" href="#">Diet</a></li>
                 <li>
                   <a class="dropdown-item" href="#">BMI Calculation</a>

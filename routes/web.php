@@ -40,5 +40,17 @@ Route::get('appointment',function (){
 
     return view('appointment');
 });
+Route::get('plans',function (){
+
+    return view('plans');
+});
+Route::get('w1',function (){
+
+    return view('w1');
+});
+Route::get('w2',function (){
+
+    return view('w2');
+});
 
 
