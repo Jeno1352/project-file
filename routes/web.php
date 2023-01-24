@@ -52,5 +52,9 @@ Route::get('w2',function (){
 
     return view('w2');
 });
+Route::get('bmi',function (){
+
+    return view('bmi');
+});
 
 
