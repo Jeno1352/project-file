@@ -264,6 +264,14 @@
             </div>
         </section>
     </section>
+    <form class="form" action="">
+      <h2>Still have any questions? Contact us to get your answer!</h2>
+      <input class="inp-name" type="text" placeholder="Full Name..." name="" id=""><br><br>
+      <input class="inp-email" placeholder="Email Address..." type="email" name="" id=""> <br><br>
+      <textarea  placeholder="Type Your Comment..." class="my-text" name="" id="" cols="30" rows="10"></textarea>
+      <br><br>
+      <button class="submit-btn" type="submit">Submit </button>
+   </form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
