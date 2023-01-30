@@ -9,7 +9,7 @@
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><span>Bee</span>Fit</a><a href=""><img alt=".." class="logo" src="images/logo.png"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand" href="{{ url('/') }}"><span>Bee</span>Fit</a><a href=""><img alt=".." class="logo" src="images/logo.png"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -20,9 +20,24 @@
                     </li>
 
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
+                    <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Services</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="{{url('plans')}}">Workout</a></li>
+                <li><a class="dropdown-item" href="#">Diet</a></li>
+                <li>
+                  <a class="dropdown-item" href="{{url('bmi')}}">BMI Calculation</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="{{url('appointment')}}">Appoinment of Trainer</a>
+                </li>
+              </ul>
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('FAQ')}}">FAQ</a>
                     </li>

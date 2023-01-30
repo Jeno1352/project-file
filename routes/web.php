@@ -36,6 +36,26 @@ Route::get('FAQ',function (){
 
     return view('FAQ');
 });
+Route::get('appointment',function (){
+
+    return view('appointment');
+});
+Route::get('plans',function (){
+
+    return view('plans');
+});
+Route::get('w1',function (){
+
+    return view('w1');
+});
+Route::get('w2',function (){
+
+    return view('w2');
+});
+Route::get('bmi',function (){
+
+    return view('bmi');
+});
 
 
 Route::post('insert/registered',[UsersController::class,'insert'])->name('insert.registered');
