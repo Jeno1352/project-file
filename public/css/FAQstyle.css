@@ -47,6 +47,34 @@ a.text-secondary:hover {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-body{
-    background-color: rgb(190, 132, 54);
-}
+
+.form{
+    margin-left: 25%;
+ }
+ .inp-name{
+    width: 250px;
+    height: 30px;
+    margin: 3px solid gray;
+ }
+ 
+ .inp-email{
+    width: 250px;
+    height: 30px;
+    margin: 3px solid gray;
+ }
+ 
+ .my-text{
+    width: 250px;
+    margin: 3px solid gray;
+ }
+ 
+ .submit-btn{
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+    color: wheat;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 20px;
+ }
