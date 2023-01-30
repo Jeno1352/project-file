@@ -1,7 +1,7 @@
 <?php
 
 
-
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,3 +38,5 @@ Route::get('FAQ',function (){
 });
 
 
+Route::post('insert/registered',[UsersController::class,'insert'])->name('insert.registered');
+Route::get('insert/registered',[UsersController::class,'insert'])->name('insert.registered');

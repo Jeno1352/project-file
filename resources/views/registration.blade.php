@@ -11,11 +11,11 @@
 
 <body>
 <div class="registration">
-    <form action="insert"method="post">
+    <form action="{{route('insert.registered')}}" method="get">
         @csrf
         <div class="form-group">
             <label class="form-label" for="Name"> </label>
-            Name<input class="form-control" type="Name" placeholder="Name" id="Name" name="Name">
+            Name<input class="form-control" type="text" placeholder="Name" id="Name" name="Name">
 
         </div>
         <div class="form-group">
@@ -25,12 +25,12 @@
         </div>
         <div class="form-group">
             <label class="form-label" for="Weight"> </label>
-            Weight<input class="form-control" type="number" placeholder="Weight" id="Weight"name="Weight">
+            Weight<input class="form-control" type="number" placeholder="Weight" id="Weight" name="Weight">
 
         </div>
         <div class="form-group">
             <label class="form-label" for="height"> </label>
-            Height<input class="form-control" type="number" placeholder="Height" id="height"name="height">
+            Height<input class="form-control" type="number" placeholder="Height" id="height" name="height">
 
         </div>
         <div class="form-group">
