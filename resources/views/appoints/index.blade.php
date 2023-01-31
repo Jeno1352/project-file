@@ -38,6 +38,10 @@
                                         <td>{{ $row->topic }}</td>
                                         <td>{{ $row->app_date }}</td>
                                         <td>{{ $row->app_time }}</td>
+                                        <td>
+                                            <a href="{{ route('appnts.delete', $row->id) }}" class="btn btn-sm btn-danger">Delete</a>
+
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>

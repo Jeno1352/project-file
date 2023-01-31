@@ -37,5 +37,11 @@ class ShowAppointments extends Controller
         );
         DB::table('appoints') ->insert($data);
         return redirect() -> back() -> with ('success' , 'successfully inserted!');
+
+    }
+    //delete method
+    public function delete($id){
+        DB::table('appoints') -> where ('id', $id) -> delete();
+        return redirect() -> back() -> with ('success' , 'successfully deleted!');
     }
 }
