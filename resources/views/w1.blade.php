@@ -43,7 +43,7 @@
                     exercitationem distinctio blanditiis assumenda iusto quis molestiae
                     quidem, numquam cupiditate quo accusantium deserunt pariatur!
                     <p><b>Duration: 30seconds</b></p>
-                    <p><a href="#"> Video Link</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=Cmxr9xcNhgU" target="_blank"> Video Link</a></p>
                 </div>
                 <div class="image">
                     <img src="images\Workout\highstepping.gif" alt="cat" />
@@ -60,7 +60,7 @@
                     exercitationem distinctio blanditiis assumenda iusto quis molestiae
                     quidem, numquam cupiditate quo accusantium deserunt pariatur!
                     <p><b>Duration: 30seconds</b></p>
-                    <p><a href="#"> Video Link</a></p>
+                    <p><a href="#" target="_blank"> Video Link</a></p>
                 </div>
                 <div class="image">
                     <img src="images\Workout\mountainclimber.gif" alt="cat" />
@@ -76,7 +76,7 @@
                     exercitationem distinctio blanditiis assumenda iusto quis molestiae
                     quidem, numquam cupiditate quo accusantium deserunt pariatur!
                     <p><b>Repeat: 10 times</b></p>
-                    <p><a href="#"> Video Link</a></p>
+                    <p><a href="#" target="_blank"> Video Link</a></p>
                 </div>
                 <div class="image">
                     <img src="images\Workout\flutterkicks.gif" alt="cat" />
@@ -92,7 +92,7 @@
                     exercitationem distinctio blanditiis assumenda iusto quis molestiae
                     quidem, numquam cupiditate quo accusantium deserunt pariatur!
                     <p><b>Repeat: 10 times</b></p>
-                    <p><a href="#"> Video Link</a></p>
+                    <p><a href="#" target="_blank"> Video Link</a></p>
                 </div>
                 <div class="image">
                     <img src="images\Workout\bicyclecrunch.gif" alt="cat" />
