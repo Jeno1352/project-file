@@ -30,6 +30,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: blanchedalmond;
+  }
+  .excercise:hover{
+    box-shadow: 3px 10px brown;
+    margin-top: 5px;
   }
   
   .text {
