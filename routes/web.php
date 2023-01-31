@@ -57,4 +57,7 @@ Route::get('bmi',function (){
     return view('bmi');
 });
 
+Route::get('appnts',[App\Http\Controllers\Admin\ShowAppointments::class, 'index']) -> name ('appnts.index');
 
+Route::get('create/appnts',[App\Http\Controllers\Admin\ShowAppointments::class, 'create']) -> name ('create.appnts');
+Route::post('store/appnts',[App\Http\Controllers\Admin\ShowAppointments::class, 'store']) -> name ('store.appnts');
