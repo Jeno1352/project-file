@@ -1,11 +1,11 @@
 @extends('layouts.nav')
 
 @section('title')
-    BEEFIT
+    view appointments
 @endsection
 
 
-@section('content')
+@section('cont')
     <br>
     <br>
     <div class=" container">

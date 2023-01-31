@@ -1,7 +1,7 @@
 <?php
 
 
-
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -56,6 +56,7 @@ Route::get('bmi',function (){
 
     return view('bmi');
 });
+
 
 Route::get('appnts',[App\Http\Controllers\Admin\ShowAppointments::class, 'index']) -> name ('appnts.index');
 

@@ -18,10 +18,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('number');
-            $table->string('email')->nullable();
-            $table->string('topic')->nullable();
-            $table->date('app_date')->nullable();
-            $table->time('app_time')->nullable();
+            $table->string('email');
+            $table->string('topic');
+            $table->date('app_date');
+            $table->time('app_time');
 
             $table->timestamps();
         });
