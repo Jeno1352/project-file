@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="finish">
-                <a href="..\index.html"><button>Finish</button></a>
+                <a href="{{}}"><button>Finish</button></a>
             </div>
         </div>
     </body>

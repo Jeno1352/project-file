@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -63,3 +63,11 @@ Route::get('appnts',[App\Http\Controllers\Admin\ShowAppointments::class, 'index'
 Route::get('create/appnts',[App\Http\Controllers\Admin\ShowAppointments::class, 'create']) -> name ('create.appnts');
 Route::post('store/appnts',[App\Http\Controllers\Admin\ShowAppointments::class, 'store']) -> name ('store.appnts');
 Route::get('appnts/delete{id}',[App\Http\Controllers\Admin\ShowAppointments::class, 'delete']) -> name ('appnts.delete');
+
+
+Route::post('insert/registered',[UsersController::class,'insert'])->name('insert.registered');
+Route::get('insert/registered',[UsersController::class,'insert'])->name('insert.registered');
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// });
