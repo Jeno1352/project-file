@@ -19,7 +19,6 @@
                                 <tr>
                                     <td>SL</td>
                                     <td>Customer Name</td>
-
                                     <td>Number</td>
                                     <td>Email</td>
                                     <td>Topic</td>
